@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es-PE">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Close Button Ejercicio</title>
+
+    <!-- CSS de Foundation -->
+    <link rel="stylesheet" type="text/css" href="/node_modules/foundation-sites/dist/css/foundation.css">
+
+    <base href="localhost">
+  </head>
+  <body>
+		<!-- Aquí va el ejercicio -->
+    <div class="callout" data-closable>
+      <button class="close-button" aria-label="Close alert" type="button" data-close>
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <p>This is a close button example.</p>
+    </div>
+
+    <!-- JS -->
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/what-input/dist/what-input.js"></script>
+    <script src="/node_modules/foundation-sites/dist/js/foundation.min.js"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

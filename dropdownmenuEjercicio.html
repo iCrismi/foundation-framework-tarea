@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es-PE">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu Ejercicio</title>
+
+    <!-- CSS de Foundation -->
+    <link rel="stylesheet" type="text/css" href="/node_modules/foundation-sites/dist/css/foundation.css">
+
+    <base href="localhost">
+  </head>
+  <body>
+		<!-- Aquí va el ejercicio -->
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li>
+        <a>Item 1</a>
+        <ul class="menu">
+          <li><a href="#0">Item 1A Loooong</a></li>
+          <li>
+            <a href='#0'> Item 1 sub</a>
+            <ul class="menu">
+              <li><a href='#0'>Item 1 subA</a></li>
+              <li><a href='#0'>Item 1 subB</a></li>
+              <li>
+                <a href='#0'> Item 1 sub</a>
+                <ul class="menu">
+                  <li><a href='#0'>Item 1 subA</a></li>
+                  <li><a href='#0'>Item 1 subB</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href='#0'> Item 1 sub</a>
+                <ul class="menu">
+                  <li><a href='#0'>Item 1 subA</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#0">Item 1B</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#0">Item 2</a>
+        <ul class="menu">
+          <li><a href="#0">Item 2A</a></li>
+          <li><a href="#0">Item 2B</a></li>
+        </ul>
+      </li>
+      <li><a href="#0">Item 3</a></li>
+      <li><a href='#0'>Item 4</a></li>
+    </ul>
+
+    <!-- JS -->
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/what-input/dist/what-input.js"></script>
+    <script src="/node_modules/foundation-sites/dist/js/foundation.min.js"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
