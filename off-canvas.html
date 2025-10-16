@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es-PE">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation Starter Template</title>
+
+    <!-- CSS de Foundation -->
+    <link rel="stylesheet" type="text/css" href="/node_modules/foundation-sites/dist/css/foundation.css">
+
+    <base href="localhost">
+  </head>
+  <body>
+		<!-- Aquí va el ejercicio -->
+<!-- Set up Off-canvas -->
+<body>
+  <div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+      <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+        <!-- left off-canvas markup -->
+      </div>
+      <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
+        <!-- right off-canvas markup -->
+      </div>
+      <div class="off-canvas-content" data-off-canvas-content>
+        <!-- page content -->
+      </div>
+    </div>
+  </div>
+</body>
+
+<!-- Fire Off-canvas -->
+<button type="button" class="button" data-toggle="offCanvasLeft">Open Menu</button>
+
+    <!-- JS -->
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/what-input/dist/what-input.js"></script>
+    <script src="/node_modules/foundation-sites/dist/js/foundation.min.js"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
